@@ -122,8 +122,93 @@ h2{
     text-align: center;
     font-family:'Montserrat', sans-serif;
     font-size: 20px;
+    padding-top: 15px;
+}
+.portafolio{
+    margin-top: 100px;
+    height: 700px;
+    margin-bottom: 20px;
+}
+.portafolio>div{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.portafolio>div>figure{
+    display: inline-block;
+    padding-top: 70px;
+    width: 374px;
+    
+} 
+.portafolio>div>figure>span{
+    display: flex;
+    justify-content: center;
+    width: 324px;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.portafolio>div>figure>img{
+    display: block;
+
 }
 
 
 
+.contacto>div>div>form>label>span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.contacto>div>div>form>label>input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border:2px #333333 solid;
+    height: 35px;
+    width: 350px; 
+}
+
+.contacto>div>div>form>label{
+    display: block;
+    padding: 0px 0px 30px 100px;
+
+}
+.form-email{
+    display: inline-block;
+    margin-right: 20px;
+}
+.contacto>div>div>form>label>textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius:  5px;
+    border:2px #333333 solid;
+    width: 350px;
+    height: 200px;
+    resize: none;
+    overflow: scroll;
+}
+.div-contacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-contacto>div>div{
+    justify-content: center;
+}
+.figure {
+    display: flex;
+
+    align-items: center;
+}
+.figure>a>img{
+    padding: 0px 10px 0px 10px;
+}
+
+#ancla_contacto{
+    padding-bottom: 50px;
+}
 
