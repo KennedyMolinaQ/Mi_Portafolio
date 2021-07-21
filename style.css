@@ -149,11 +149,6 @@ h2{
     font-family: 'Montserrat', sans-serif;
 } 
 
-.portafolio>div>figure>img{
-    display: block;
-
-}
-
 
 
 .contacto>div>div>form>label>span{
@@ -174,7 +169,7 @@ h2{
 
 .contacto>div>div>form>label{
     display: block;
-    padding: 0px 0px 30px 100px;
+    padding: 0px 0px 30px 0px;
 
 }
 .form-email{
@@ -195,9 +190,13 @@ h2{
 .div-contacto{
     display: flex;
     justify-content: space-evenly;
+    
 }
-.div-contacto>div>div{
-    justify-content: center;
+.div-contacto>div{
+    border: 2px red solid;
+    display: flex;
+    align-content: center;
+
 }
 .figure {
     display: flex;
@@ -212,3 +211,12 @@ h2{
     padding-bottom: 50px;
 }
 
+.boton-enviar{
+    display: inline-block;
+    border: 1px #004BDB solid ;
+    background-color: #004BDB;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    
+}
