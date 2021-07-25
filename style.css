@@ -83,10 +83,18 @@ h2{
     color: #004BDB;
     font-family: 'Poppins', sans-serif;
 }
+
+.sobre_mi{
+    padding-top: 10px ;
+    border: 0px  #333333;
+    border-style: dashed;
+    border-top-width: 3px;
+}
+
 .sobre_mi>p{
     display: block;
-    font-size: 30px;
-    width: 798px;
+    font-size: 25px;
+    width: 650px;
     align-content: center;
     margin: auto;
     padding-top: 50px;
@@ -170,6 +178,7 @@ h2{
 .contacto>div>div>form>label{
     display: block;
     padding: 0px 0px 30px 0px;
+    
 
 }
 .form-email{
@@ -193,10 +202,9 @@ h2{
     
 }
 .div-contacto>div{
-    border: 2px red solid;
+
     display: flex;
     align-content: center;
-
 }
 .figure {
     display: flex;
@@ -206,17 +214,32 @@ h2{
 .figure>a>img{
     padding: 0px 10px 0px 10px;
 }
-
 #ancla_contacto{
     padding-bottom: 50px;
 }
-
 .boton-enviar{
-    display: inline-block;
+    
     border: 1px #004BDB solid ;
     background-color: #004BDB;
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
     color: white;
-    
+    margin: 0px auto;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+footer{
+    margin-top: 20px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: #004BDB;
 }
