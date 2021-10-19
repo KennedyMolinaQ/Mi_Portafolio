@@ -8,7 +8,6 @@
     padding-top: 25px;
     padding-left: 77px;
     position: fixed;
-    
     left: 0;
     top: 0;
     width: 100%;
@@ -34,8 +33,9 @@
     
 }
 .menu>ul>li{
-    margin-right: 70px;
-    padding: 10px;
+    margin-right: 60px;
+    padding: 10px 0px;
+    
     
 }
 .menu>ul>li>a{
@@ -43,6 +43,9 @@
     justify-content: right;
     font-family: 'Acme', sans-serif;
     font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    /*dawdawdawd*/
 }
 
 #main{
@@ -253,4 +256,9 @@ footer{
     text-align: center;
     color:white;
     background-color: #004BDB;
+}
+
+.menu>ul>li>a:hover{
+    background-color: #004BDB;
+    color: white;
 }
