@@ -76,7 +76,7 @@
     /* border: 2px solid blue; */
     width: 100%;
     max-width: 594.58px ;
-    min-width: 280px;
+    min-width: 269px;
 }
 .inicio-h1-span1{
     /* border: 1px solid rgb(98, 0, 255); */
@@ -175,21 +175,17 @@ h2{
     text-align: center;
 }
 .tecnologias-web-figure{
-    /* border: 2px black solid;  */
+    /* border: 2px rgb(0, 204, 255) solid; */
     display: flex;
     flex-direction: column;
-    width: 15%;
-    max-width: 66.56px;
 }
 .tecnologias-web-figure>img{
     /* border: 2px blue solid; */
-    width: 100%;
-    max-width: 66.56px;
+    width: 70px;
 }
 .tecnologias-web-figure>span{
-    /* border: 2px red  solid;  */
-    width: 100%;
-    max-width: 66.56px;
+    /* border: 2px rgb(255, 0, 0) solid; */
+    width: 70px;
 }
 .name_tec{
     font-family: 'Poppins', sans-serif;
@@ -232,7 +228,6 @@ h2{
 }
 /*---Contacto---*/
 .contacto{
-    
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -240,7 +235,6 @@ h2{
     height: 400px;
 }
 .ancla_contacto{
-    
     color: white;
 }
 .div_social{
@@ -249,26 +243,14 @@ h2{
     padding-top: 35px;
 }
 .figure_social {
-    border: 1px solid black; 
+    /* border: 1px solid black; */
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.figure_social>a{
-    width: 50%;
-    max-width: 147px;
-    min-width:90px ;
-} 
-.figure_social img{
-    border: 1px solid red;
-    width: 100%;
-    padding: 0px 5px 0px 5px;
-}
-
 /*--- Pie de pagina ---*/
 footer{
-
     width: 100v;
     background-color: black;
     color: white;
@@ -293,89 +275,66 @@ main{
     width: 100%;
 }
 
-@media screen and (max-width:1200px){
-    main{
-        width: 100%;
-    }
-    .menu>a{
-        /* border: black 1px solid; */
+@media screen and (max-width:600px){
+    .header{
+        border: 1px solid red;
+   
+
         text-align: center;
-        margin-bottom: 5px;
+        height: 300px;
     }
+
     .menu{
+        /* border: red solid 1px; */
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
+        height: 300px;
     }
-    .menu-div{
-        /* border: black 1px solid; */
-        height: 40px;
+    main{
+        width: 100vp;
     }
-    .menu-div-ul{
-        /* border:2px red solid; */
-        width: 100%;
-        height: 100%;
-        line-height: normal;
-        flex-wrap: wrap;
-    }
-    .inicio,.sobre_mi,.portafolio{
-        padding-top:150px ;
-    }
-    .inicio-h1{
-        font-size:38px;
-        padding-left: 35px;
-    }
-    h2{
-        font-size: 40px;
-    }
-    .tecnologias-div{
-        /* border: 1px black solid; */
-        flex-direction: column;
-        align-items: center;
-
-        
-    }
-    .tecnologias-business, .tecnologias-web{
-        margin-top: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        width: 70%;
-
-    }
-    .tecnologias-business>span, .tecnologias-web>span{
-        font-size: 30px;
-
-    }
-    .tecnologias{
-        padding-top:150px;
+    .sobre_mi{
+        font-size: 15px;
     }
 }
 
-@media screen and (max-width:699px){
-    /*-------------------------------------------------*/
-    /* .header{
-        height: 180px;
-        max-height: 180px;
+@media screen and (max-width:1390px){
+    .header{
+        /* border: 1px solid red; */
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        
     }
-    li:nth-child(5){
-        padding-top: 10px; ;
-    } */
+    .menu{
+        height: 300px;
+    }
+    main{
+        width: 100vp;
+    }
 
-    /* .inicio,.sobre_mi,.portafolio{
-        padding-top:180px ;
-    } */
+    .menu>a{
+        font-size: 40px;
+    }
 
-    .inicio,.sobre_mi,.tecnologias,.portafolio{
-        padding-top:180px ;
+    .inicio-h1{
+        /* border: 1px red solid; */
+        font-size: 43px;
+ 
     }
     .inicio-h1-span1{
-        font-size: 15px;
+        /* border: 1px solid rgb(98, 0, 255); */
+        color: #333333;
+        font-weight: lighter;
+        font-size: 35px;
+        margin: 0px 0px -15px 0px;
     }
-    .inicio-h1{
-        font-size: 30px;
-        padding-left: 7px;
+    .inicio-h1-span2{
+        /* border: 1px solid rgb(98, 0, 255); */
+        color: #333333;
+        font-weight: normal;
+        font-size: 20px;
+        margin: -15px 0px 0px 0px;
     }
-    .sobre_mi-p{
-        width: 95%;
-    }
-   
 }
